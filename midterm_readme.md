@@ -27,21 +27,21 @@ username: password{userId}
 
 ### 1. Login Page
 
-- [] Inputs (5pts)
+- [x] Inputs (5pts)
 
-- [] Button to Submit (5pts)
+- [x] Button to Submit (5pts)
 
 ### 2. Todo Page
 
-- [] Inputs (2pts)
+- [x] Inputs (2pts)
 
-- [] Button to Edit (2pts)
+- [x] Button to Edit (2pts)
 
-- [] Button to Submit (2pts)
+- [x] Button to Submit (2pts)
 
-- [] Button to Delete (2pts)
+- [x] Button to Delete (2pts)
 
-- [] CheckBox (2pts)
+- [x] CheckBox (2pts)
 
 ### 3.Naming and Structures
 
@@ -51,13 +51,13 @@ username: password{userId}
 
 ### Part-3 : Feature and Logic (95pts)
 
-- [] Using React Router (10pts)
+- [x] Using React Router (10pts)
 
-- [] Login (Connects to API) (10pts)
+- [x] Login (Connects to API) (10pts)
 
 - [] Get my Todo (10pts)
 
-- [] Auto Redirect when **Login Success** (10pts)
+- [x] Auto Redirect when **Login Success** (10pts)
 
 - [] Create Todo (Connects to API) (10pts)
 
@@ -73,13 +73,13 @@ username: password{userId}
 
 ### Part-3 : Bonus (50pts)
 
-- [] Show validation in Login Page (5pts)
+- [x] Show validation in Login Page (5pts)
 
 - [] Show validation in Todo Page (5pts)
 
 - [] UI Feature Register (5pts)
 
-- [] Register Feature Connects to API (5pts)
+- [x] Register Feature Connects to API (5pts)
 
 - [] Using State Management (useContext, zustand) (5pts)
 

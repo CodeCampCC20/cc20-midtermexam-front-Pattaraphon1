@@ -4,7 +4,7 @@ import PostPages from '../pages/PostPages'
 import MainLayout from '../layouts/MainLayout'
 import LoginPages from '../pages/LoginPages'
 import TodoPages from '../pages/TodoPages'
-import RegisterPage from '../pages/RegisterPages'
+import RegisterPages from '../pages/RegisterPages'
 
 
 function AppRouter() {
@@ -16,7 +16,7 @@ function AppRouter() {
           <Route index element ={<PostPages/>}/>
           <Route path ="login" element={<LoginPages/>}/>
           <Route path ="todo" element={<TodoPages />}/>
-          <Route path ="register" element={<RegisterPage/>}/>
+          <Route path ="register" element={<RegisterPages/>}/>
         </Route>
       </Routes>
       </BrowserRouter>

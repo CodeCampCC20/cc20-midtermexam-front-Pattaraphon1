@@ -9,7 +9,7 @@ import axios from 'axios';
 
 const initialInput = {
   username: "",
-  password: ""
+  password: "",
 }
 
 function LoginPages() {
@@ -38,6 +38,7 @@ const navigate = useNavigate();
       console.log(res.data);
 
       setInput(initialInput);
+      alert("Login SuccessFull")
       navigate("/todo");
 
     } catch (error) {
@@ -67,7 +68,7 @@ const navigate = useNavigate();
             id="username"
             placeholder="Enter your username"
             onChange={handleChange}
-            error={inputError.email}
+            error={inputError.username}
           />
           <InputForm
             type='password'
